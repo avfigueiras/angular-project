@@ -1,6 +1,6 @@
 [build]
-    command = "ng build:staging"
-    publish = "build/"
+    command = "ng build"
+    publish = "dist/"
 
 
 [[redirects]]
