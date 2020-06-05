@@ -121,6 +121,14 @@
               "devServerTarget": "my-first-app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/my-first-app",
+            "netlifyToken": "",
+            "siteId": "ea8814e6-f382-407e-a4f9-fef3a7211672"
+          }
         }
       }
     }
@@ -130,4 +138,3 @@
     "analytics": false
   }
 }
-
